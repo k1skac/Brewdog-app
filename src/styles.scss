@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+h1{
+    color: #EB1A12;
+    font-size: 2vw;
+    font-weight:bold;
+    font-style:normal;
+  //  font-family: 'Montserrat', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+table{
+    width: 1200px;
+    margin: auto;
+}
+@media screen {
+    
+}
+tr{
+    background-color: #EB1A12;
+    border-radius: 10px;
+    -webkit-box-shadow: 9px 5px 10px 6px #000000; 
+    box-shadow: 9px 5px 10px 6px #000000;
+    width: 350px;
+    padding:10px;
+    height: 700px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 0,8vw;
+    color: black;
+    text-align:center;
+    flex: 1 0 300px;
+    display: inline-table;
+    
+}
+img{
+    width: 150px;
+    padding: 10px;
+    border: dotted black 5px;
+}
+
+.toggle{
+    width: fit-content;
+    position: relative;
+}
+.paginate{
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+}
+.itemsPerPage{
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.beerName{
+ text-align: center;
+ font-size: 3,5vw;
+ 
+}
