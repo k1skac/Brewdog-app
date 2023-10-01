@@ -4,7 +4,6 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { BeerService } from './beer.service';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -19,7 +18,6 @@ export class AppComponent implements OnInit{
    
   tableSize : number = 6;
   tableSizes: any = [3,6,9,12];
-  
 
   constructor(private beerService: BeerService, private sanitizer : DomSanitizer){}
 
@@ -27,7 +25,6 @@ export class AppComponent implements OnInit{
     this.getBeers(this.page, this.tableSize);
   }
   
-
   public sanitizeImageURL(image_url: string): SafeUrl {
     return this.sanitizer.bypassSecurityTrustUrl(image_url);
   }
